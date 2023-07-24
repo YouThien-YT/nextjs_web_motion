@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
           <Transition />
           <Component {...pageProps} />
        
-       </motion.div>
+        </motion.div>
       </AnimatePresence>
      </Layout>
     ); 
