@@ -7,6 +7,9 @@ import Link from "next/link";
 // components
 import Socials from '../components/Socials';
 
+// fix image
+import prefix from '../prefix';
+
 const Header = () => {
   return (
     <header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
@@ -15,7 +18,7 @@ const Header = () => {
           {/* logo */}
           <Link href={'/'}>
             <Image 
-              src={'/yt1.JPG'}
+              src={`/${prefix}/yt1.JPG`}
               width={40}
               height={30}
               alt=""

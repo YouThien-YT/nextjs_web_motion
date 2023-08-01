@@ -7,10 +7,13 @@ import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
 
 // framer motion
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 // variants
-import { fadeIn } from '../variants'
+import { fadeIn } from '../variants';
+
+// fix image
+import prefix from '../prefix';
 
 const Home = () => {
   return (
