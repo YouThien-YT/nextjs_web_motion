@@ -18,11 +18,7 @@ const Header = () => {
           {/* logo */}
           <Link href={'/'}>
             <Image 
-<<<<<<< HEAD
               src={'/yt1.JPG'}
-=======
-              src={'nextjs_web_motion/yt1.JPG'}
->>>>>>> b4ee64063ade608d1de44d24f53d23bf58f66652
               width={40}
               height={30}
               alt=""
