@@ -30,7 +30,11 @@ const Nav = () => {
       <div className='flex w-full lg:flex-col items-center justify-between xl:justify-center gap-y-10 px-10 dm:px-40 xl:px-0 h-[80px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full rounded-full '>
         {list_link.map((link, index) => {
           return (
-            <Link className={`${link.path===pathname && 'text-accent'} relative flex items-center group hover:text-accent `} key={index} href={link.path}>
+            <Link 
+              className={`${link.path===pathname && 'text-accent'} relative flex items-center group hover:text-accent `} 
+              key={index} 
+              href={link.path}
+            >
               
               {/* tooltip */}
               <div className='absolute pr-14 right-0 hidden  xl:group-hover:flex'>

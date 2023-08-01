@@ -25,7 +25,8 @@ const Home = () => {
               initial='hidden' 
               animate='show' 
               exit='hidden' 
-              className="h1">
+              className="h1"
+            >
               Transforming Ideas <br/> Into{' '}
               <span className="text-accent">Digital Reality</span>
             </motion.h1>
@@ -37,7 +38,8 @@ const Home = () => {
               initial='hidden' 
               animate='show' 
               exit='hidden' 
-              className=" font-mono max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8 xl:mb-10 ">
+              className=" font-mono max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8 xl:mb-10 "
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum quan reprehenderit vero, tenetur voluptatem nulla aut aspernatur dolores ut.
             </motion.p>
           </div>
@@ -50,7 +52,8 @@ const Home = () => {
             initial='hidden' 
             animate='show' 
             exit='hidden' 
-            className=" hidden xl:flex pb-28 " >
+            className=" hidden xl:flex pb-28 " 
+          >
             <ProjectsBtn></ProjectsBtn>
           </motion.div>
         </div>
@@ -69,7 +72,8 @@ const Home = () => {
           animate='show' 
           exit='hidden' 
           transition={{duration: 1, ease: 'easeInOut'}}
-          className=" w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
+          className=" w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+        >
           <Avatar></Avatar>
         </motion.div>
       </div>
