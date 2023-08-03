@@ -1,14 +1,13 @@
 // next image
 import Image from "next/image";
+// images
+import yt from '../public/yt1.JPG';
 
 // next link
 import Link from "next/link";
 
 // components
 import Socials from '../components/Socials';
-
-// fix image
-import prefix from '../prefix';
 
 const Header = () => {
   return (
@@ -18,7 +17,7 @@ const Header = () => {
           {/* logo */}
           <Link href={'/'}>
             <Image 
-              src={'/yt1.JPG'}
+              src={yt}
               width={40}
               height={30}
               alt=""

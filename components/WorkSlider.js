@@ -14,7 +14,11 @@ import { Pagination } from 'swiper';
 
 // next image
 import Image from 'next/image'; 
-
+// images
+import thumb1 from '../public/thumb1.jpg';
+import thumb2 from '../public/thumb2.jpg';
+import thumb3 from '../public/thumb3.jpg';
+import thumb4 from '../public/thumb4.jpg';
 
 // data
 const workSlidesData = {
@@ -23,19 +27,19 @@ const workSlidesData = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: thumb1,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: thumb2,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: thumb3,
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: thumb4,
         },
       ],
     },
@@ -43,19 +47,19 @@ const workSlidesData = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: thumb4,
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: thumb3,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: thumb2,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: thumb1,
         },
       ],
     },

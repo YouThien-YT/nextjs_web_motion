@@ -1,5 +1,10 @@
+// import '../styles/globals.css';
+// import '../pages/_app.js';
+
 // next image
 import Image from "next/image";
+// images
+import bgExplosion from '../public/explosion.png';
 
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
@@ -12,8 +17,6 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 
-// fix image
-import prefix from '../prefix';
 
 const Home = () => {
   return (
@@ -45,7 +48,7 @@ const Home = () => {
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum quan reprehenderit vero, tenetur voluptatem nulla aut aspernatur dolores ut.
             </motion.p>
-          </div>
+          </div> 
           {/* btn */}
           <div className=" z-10 flex justify-center xl:hidden relative ">
             <ProjectsBtn></ProjectsBtn>
@@ -64,7 +67,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* xl:bg_img */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 ">
+        <div className={`bg-none xl:bg-[url(/explosion.png)] xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 `}>
         </div>
         {/* particles */}
         <ParticlesContainer></ParticlesContainer>
