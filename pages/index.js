@@ -67,7 +67,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* xl:bg_img */}
-        <div className={`bg-none xl:bg-[url(/explosion.png)] xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 `}>
+        <div className={`bg-none xl:bg-[url(https://github.com/YouThien-YT/nextjs_web_motion/blob/YT/public/bg-explosion.png)] xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 `}>
         </div>
         {/* particles */}
         <ParticlesContainer></ParticlesContainer>
