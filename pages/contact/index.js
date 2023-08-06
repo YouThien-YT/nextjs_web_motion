@@ -23,7 +23,7 @@ const Contact = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className="h2 text-center mb-12 "
+            className="h2 text-center mb-12 mt-8 "
           >
             Let&apos;s <span className="text-accent">connect.</span>
           </motion.h2>
@@ -41,7 +41,7 @@ const Contact = () => {
               <input type="text" placeholder='email' className="input"></input>
             </div>
             <input type="text" placeholder='subject' className="input"></input>
-            <textarea placeholder="message" className="textarea"></textarea>
+            <textarea placeholder="message" className="textarea h-20"></textarea>
             <button className="btn rounded-full border border-white/40 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group  ">
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 Let&apos;s talk

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // icons
-import {
+import { 
   FaHtml5,
   FaCss3,
   FaJs,
@@ -141,7 +141,7 @@ const About = () => {
           initial='hidden'
           animate='show'
           exit='hidden' 
-          className='flex flex-col w-full xl:max-w-[48%] h-[480px]'
+          className='flex flex-col w-full xl:max-w-[48%] h-[480px] pb-20'
         >
           <div className=' flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 '>
             {aboutData.map((item, itemIndex) => {

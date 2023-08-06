@@ -22,7 +22,7 @@ const Header = () => {
               height={30}
               alt=""
               priority={true}
-              className="rounded-full">
+              className=" xl:ml-14 rounded-full ">
             </Image>
           </Link>
           {/* socials */}

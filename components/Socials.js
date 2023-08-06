@@ -13,14 +13,14 @@ import {
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
-      <Link href={''} className="hover:text-accent transition-all duration-300" >
+    <div className="flex items-center gap-x-5 text-2xl">
+      <Link href={'https://www.youtube.com/@YouThien-YT'} className="hover:text-accent transition-all duration-300" >
         <RiYoutubeLine></RiYoutubeLine>
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300" >
+      <Link href={'https://www.instagram.com/youthien.yt/'} className="hover:text-accent transition-all duration-300" >
         <RiInstagramLine></RiInstagramLine>
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300" >
+      <Link href={'https://www.facebook.com/YouThien.YT/'} className="hover:text-accent transition-all duration-300" >
         <RiFacebookLine></RiFacebookLine>
       </Link>
       <Link href={''} className="hover:text-accent transition-all duration-300" >
