@@ -148,7 +148,7 @@ const About = () => {
               return (
                 <div 
                   key={itemIndex}
-                  className= {`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300' } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                  className= {`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300' } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 xl:mt-5 hover:text-orange-400 transition-all duration-300 `}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
@@ -166,15 +166,18 @@ const About = () => {
                   {/* title */}
                   <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                   <div className='hidden md:flex'>-</div>
+                  {/* stage */}
                   <div>{item.stage}</div>
-                  <di className='flex gap-x-4'>
-                    {/* icons */}
+                  <di className='flex gap-x-4 '>
+                  {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
                       return (
                         <div 
                           key={index}
-                          className='text-2xl text-white'
-                        >{icon}</div>
+                          className='text-2xl text-white cursor-pointer hover:text-accent transition-all duration-300 '
+                        >
+                          {icon}
+                        </div>
                       );
                     })}
                   </di>

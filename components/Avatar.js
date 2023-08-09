@@ -2,7 +2,9 @@
 import Image from "next/image";
 
 // images
-import avatar from '../public/avatar.png'
+import avatar from '../public/avatar.png';
+import naruto from '../public/naruto.png'
+
 
 const Avatar = () => {
   return (  

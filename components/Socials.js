@@ -14,7 +14,7 @@ import {
 const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-2xl">
-      <Link href={'https://www.youtube.com/@YouThien-YT'} className="hover:text-accent transition-all duration-300" >
+      <Link target="_blank" href={'https://www.youtube.com/@YouThien-YT'} className="hover:text-accent transition-all duration-300" >
         <RiYoutubeLine></RiYoutubeLine>
       </Link>
       <Link href={'https://www.instagram.com/youthien.yt/'} className="hover:text-accent transition-all duration-300" >
